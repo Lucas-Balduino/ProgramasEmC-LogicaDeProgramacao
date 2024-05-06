@@ -2,11 +2,11 @@
 #include <locale.h>
 #include <string.h>
 
-//Exercício 3
+//ExercÃ­cio 3
 
-/*Construa um programa que calcule a média aritmética de uma classe com dez alunos,
-onde cada aluno teve uma avaliação (use vetor). Gere um relatório, tela de saída, com
-o número e a nota dos alunos e no final mostre também a média da turma. */
+/*Construa um programa que calcule a mÃ©dia aritmÃ©tica de uma classe com dez alunos,
+onde cada aluno teve uma avaliaÃ§Ã£o (use vetor). Gere um relatÃ³rio, tela de saÃ­da, com
+o nÃºmero e a nota dos alunos e no final mostre tambÃ©m a mÃ©dia da turma. */
 
 void main(){
 	setlocale (LC_ALL,"Portuguese");
@@ -17,7 +17,7 @@ void main(){
 	
 	for ( i = 0; i < 10; i++){
 		printf("Digite a nota do aluno %d\n", i);
-		alunos[i] = atol(gets(nota));
+		scanf("%f", &alunos[i]);
 		
 		media += alunos[i];
 	}
