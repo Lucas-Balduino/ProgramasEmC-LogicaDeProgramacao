@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*Faça um programa que imprime todos os números entre 30 e 5 (nesta ordem) 
-divisíveis por 3, e no final imprime sua soma*/
+/*FaÃ§a um programa que imprime todos os nÃºmeros entre 30 e 5 (nesta ordem) 
+divisÃ­veis por 3, e no final imprime sua soma*/
 
 void main()
 {
@@ -18,5 +18,5 @@ void main()
 			soma += numero;
 		}
 	}
-	printf("A soma dos numeros divisiveis por 3 no intervalo de 30 a 5 é %d", soma);
+	printf("A soma dos numeros divisiveis por 3 no intervalo de 30 a 5 Ã© %d", soma);
 }
