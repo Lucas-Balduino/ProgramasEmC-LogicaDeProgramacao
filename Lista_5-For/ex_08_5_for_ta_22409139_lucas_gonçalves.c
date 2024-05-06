@@ -3,10 +3,10 @@
 #include <locale.h>
 #include <math.h>
 
-//ExercÌcio 8
+//Exerc√≠cio 8
 
-/*Prepare um programa para gerar o n˙mero H, ou seja, calcular o valor de H.
-Sendo H = 1 + 1 + 1 + 1 + . . . + 1. O n˙mero ìnî ser· fornecido pelo usu·rio.*/
+/*Prepare um programa para gerar o n√∫mero H, ou seja, calcular o valor de H.
+Sendo H = 1 + 1 + 1 + 1 + . . . + 1. O n√∫mero ‚Äún‚Äù ser√° fornecido pelo usu√°rio.*/
 
 void main()
 {
@@ -23,5 +23,5 @@ void main()
 		printf("%.2f\n", h);
 	}
 	
-	printf("O valor de h È %.2f", h);
+	printf("O valor de h √© %.2f", h);
 }
