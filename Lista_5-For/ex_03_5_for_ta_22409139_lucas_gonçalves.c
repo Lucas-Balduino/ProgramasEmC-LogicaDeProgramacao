@@ -3,10 +3,10 @@
 #include <locale.h>
 #include <conio.h>
 
-/*Sabendo que a fÛrmula de convers„o de graus Fahreinheit para Celsius È C = ( 5 / 9 ) * 
-( f ñ 32 ), escreva um programa que converta de Fahreinheit para Celsius. O programa 
-dever· imprimir na tela os 50 (cinquenta) primeiros valores positivos e negativos 
-devendo exibir as duas unidades de convers„o.*/
+/*Sabendo que a f√≥rmula de convers√£o de graus Fahreinheit para Celsius √© C = ( 5 / 9 ) * 
+( f ‚Äì 32 ), escreva um programa que converta de Fahreinheit para Celsius. O programa 
+dever√° imprimir na tela os 50 (cinquenta) primeiros valores positivos e negativos 
+devendo exibir as duas unidades de convers√£o.*/
 
 void main()
 {
@@ -14,7 +14,7 @@ void main()
 	
 	float tempFahrenheit, tempCelsius;
 	
-	printf("		Convers„o Fahrenheit - Celsius\n");
+	printf("		Convers√£o Fahrenheit - Celsius\n");
 	printf("Celsius						Fahrenheit\n");
 	
 	for (tempFahrenheit = -50.0; tempFahrenheit <= 50.0; tempFahrenheit++)
