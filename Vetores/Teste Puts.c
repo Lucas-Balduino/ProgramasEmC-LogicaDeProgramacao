@@ -10,6 +10,6 @@ void main(void){
 	printf("\n Digite seu nome:");
 	gets(vet);
 	
-	puts("Olá");
+	puts("OlÃ¡");
 	puts(vet);
 }
