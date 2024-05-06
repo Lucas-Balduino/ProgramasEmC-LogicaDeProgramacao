@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//Execício 6
+//ExecÃ­cio 6
 
-/*Faça um programa que some os algarismos de um número do tipo unsigned long int
-e ao final da execução exiba o número digitado e o somatório de seus algarismos*/
+/*FaÃ§a um programa que some os algarismos de um nÃºmero do tipo unsigned long int
+e ao final da execuÃ§Ã£o exiba o nÃºmero digitado e o somatÃ³rio de seus algarismos*/
 
 void main()
 {
@@ -20,5 +20,5 @@ void main()
 		soma += i % 10;
 	}
 	
-	printf("A soma dos algaritmos de %lu, é %lu", numero, soma);
+	printf("A soma dos algaritmos de %lu, Ã© %lu", numero, soma);
 }
