@@ -2,8 +2,8 @@
 #include <locale.h>
 #include <string.h>
 
-/*Leia quatro valores digitados pelo usuário, armazene-os num vetor e no final mostre
-esses valores que estão armazenados no vetor.*/
+/*Leia quatro valores digitados pelo usuÃ¡rio, armazene-os num vetor e no final mostre
+esses valores que estÃ£o armazenados no vetor.*/
 
 void main(){
 	setlocale (LC_ALL,"Portuguese");
@@ -18,7 +18,7 @@ void main(){
 		numeros [i] = numero;
 	}
 	
-	printf("O numeros digitados na ordem inversa é: ");
+	printf("O numeros digitados na ordem inversa Ã©: ");
 	
 	for (i = 3; i >= 0; i--){
 			printf("%d ",numeros[i]);
