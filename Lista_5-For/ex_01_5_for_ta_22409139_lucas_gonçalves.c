@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*Elaborar um programa C para computar a média de N números reais. Você receberá 
-um número inteiro e irá realizar a somo dele com todos os seus antecessores até 
+/*Elaborar um programa C para computar a mÃ©dia de N nÃºmeros reais. VocÃª receberÃ¡ 
+um nÃºmero inteiro e irÃ¡ realizar a somo dele com todos os seus antecessores atÃ© 
 chegar a zero.*/
 
 void main()
@@ -12,7 +12,7 @@ void main()
 	
 	float numero = 0,i = 0, quantidade = 0;
 	
-	printf("Insira um número: \n");
+	printf("Insira um nÃºmero: \n");
 	scanf("%f", &numero);
 	
 	quantidade = numero;
