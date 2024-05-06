@@ -3,13 +3,13 @@
 #include <locale.h>
 #include <conio.h>
 
-//ExercÌcio 5
+//Exerc√≠cio 5
 
-/*Sabendo que a 01 pÈ equivale a 0.3048m, faÁa um programa que mostre na tela a
-convers„o de metros para pÈs, de 0 a 100metros. Seu programa dever· exibir o
-cabeÁalho abaixo e a cada 20 valores exibidos na tela, seu programa dever· solicitar
-ao usu·rio que digite a tecla ENTER pra continuar, apÛs isso dever· ser limpa a tela ,
-exibido o cabeÁalho e continuar o processamento atÈ o final do programa.*/
+/*Sabendo que a 01 p√© equivale a 0.3048m, fa√ßa um programa que mostre na tela a
+convers√£o de metros para p√©s, de 0 a 100metros. Seu programa dever√° exibir o
+cabe√ßalho abaixo e a cada 20 valores exibidos na tela, seu programa dever√° solicitar
+ao usu√°rio que digite a tecla ENTER pra continuar, ap√≥s isso dever√° ser limpa a tela ,
+exibido o cabe√ßalho e continuar o processamento at√© o final do programa.*/
 
 void main()
 {
@@ -17,8 +17,8 @@ void main()
 	float metros, pes;
 	int continuar;
 	
-	printf("		Convers„o Metros - PÈs\n");
-	printf("Metros						PÈs\n");
+	printf("		Convers√£o Metros - P√©s\n");
+	printf("Metros						P√©s\n");
 	
 	for (metros = 0; metros <= 100; metros++)
 	{
