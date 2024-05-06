@@ -4,7 +4,7 @@
 void main(void){ 
 	setlocale(LC_ALL,"Portuguese");
 	
-	char vet[40]="Ol· ";
+	char vet[40]="Ol√° ";
 	char nome[40];
 	
 	printf("\n Digite seu nome:");
