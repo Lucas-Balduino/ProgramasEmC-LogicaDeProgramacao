@@ -15,10 +15,10 @@ void main(){
 	
 	for (i = 0; i < 100; i++){
 		if (i % 2 == 0){
-			vetor[i] = 0;
+			vetor[i] = 1;
 		}
 		if (i % 2 != 0){
-			vetor[i] = 1;
+			vetor[i] = 0;
 		}
 	}
 		
