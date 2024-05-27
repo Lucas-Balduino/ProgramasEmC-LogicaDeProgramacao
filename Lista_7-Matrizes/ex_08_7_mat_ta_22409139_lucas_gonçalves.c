@@ -6,24 +6,28 @@
 
 //Exercicio 8
 
-/* Crie um Algoritmo para ler 25 nomes digitados pelo usuário e imprimir o nome caso este
-seja 'maria', informando que posição (linha) este se encontra dentro da matriz.
-a) Converta todos os caracteres digitados para maiúsculas sem utilizar uma função
+/* Crie um Algoritmo para ler 25 nomes digitados pelo usuï¿½rio e imprimir o nome caso este
+seja 'maria', informando que posiï¿½ï¿½o (linha) este se encontra dentro da matriz.
+a) Converta todos os caracteres digitados para maiï¿½sculas sem utilizar uma funï¿½ï¿½o
 para isso. Observe a tabela ASCII.
-b) Conte o total de caracteres convertidos para maiúsculos e apresente o valor no final.*/
+b) Conte o total de caracteres convertidos para maiï¿½sculos e apresente o valor no final.*/
 
 void main (){
     setlocale (LC_ALL,"Portuguese");
-    char matriz [25][5];
+    char matriz [25][20];
     int i, j, linhaMaria = -1, contador = 0, contadorMaiusculas = 0;
     
     printf("Digite 25 nomes\n");
     
 	for (i = 0; i < 25; i++)
     {
-        for (j = 0; j < 5; j++)
+        for (j = 0; j < 20; j++)
         {
             matriz[i][j] = getche();
+			if (matriz[i][j] == 13){
+				matriz[i][j] = 0;
+			}
+
             if (matriz[i][j] >= 97 && matriz[i][j] <= 122){
             	matriz[i][j] -= 32;
             	contadorMaiusculas++;
@@ -44,8 +48,16 @@ void main (){
 			if(matriz[i][j]=='A'&& j == 4){
             	contador++;
 			}
-			if (contador == 5){
+			if (matriz[i][j]== 0 && j == 5){
+				contador++;
+			}
+			
+			if (contador == 6){
 				linhaMaria = i;
+			}
+
+			if (matriz[i][j] == 0){
+				break;
 			}
         }
         contador = 0;
@@ -57,17 +69,21 @@ void main (){
     for (i = 0; i < 25; i++)
     {
     	printf("[");
-        for (j = 0; j < 5; j++)
+        for (j = 0; j < 20; j++)
         {
+			if (matriz[i][j]==0){
+				break;
+			}
+			
             printf("%c", matriz[i][j]);
         }
        printf("]\n");
     }
     if(linhaMaria != -1){
-    	printf("O nome Maria foi digitado na linha %d\n", linhaMaria);	
+    	printf("O nome Maria foi digitado na linha %d\n", linhaMaria + 1);	
 	}
 	else{
-		printf("O nome Maria não foi encontrado\n");	
+		printf("O nome Maria nï¿½o foi encontrado\n");	
 	}
     printf("%d caracteres foram convertidos para maiusculas", contadorMaiusculas);
     
